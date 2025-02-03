@@ -10,7 +10,7 @@ const proxyIPs = ['35.219.50.99'];
 
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
-let dohURL = 'https://cloudflare-dns.com/dns-query'; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
+let dohURL = 'https:///dns-query'; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
 
 // v2board api environment variables (optional) deprecated, please use planetscale.com instead
 
